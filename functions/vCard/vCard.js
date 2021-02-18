@@ -34,7 +34,7 @@ const name1 = { name: "Ashan" };
 const resolvers = {
    Query: {
       getvCard: (root, args, context) => {
-         return name1;
+         return [{}];
       },
    },
 
@@ -46,7 +46,14 @@ const resolvers = {
 
          console.log("==========================");
 
-         return {};
+         return {
+            c1,
+            c2,
+            c3,
+            rec,
+            sender,
+            msg,
+         };
       },
    },
 };
