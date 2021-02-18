@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import Lolly from "../components/lolly";
 
 const Home = () => {
+   let [c1, setC1] = useState();
    return (
       <div>
-         <h1>Hello World</h1>
+         <Lolly />
+
+         <div>
+            <input type="color" />
+            <input type="color" />
+            <input type="color" />
+         </div>
       </div>
    );
 };
