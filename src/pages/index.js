@@ -2,6 +2,8 @@ import React, { useState, useRef } from "react";
 import Lolly from "../components/lolly";
 import "./styles.css";
 
+const 
+
 const Home = () => {
    let [c1, setC1] = useState("#FF0000");
    let [c2, setC2] = useState("#800080	");
